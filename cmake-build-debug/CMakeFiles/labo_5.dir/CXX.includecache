@@ -6,35 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.cpp
-sstream
--
-vector
--
-Customer.h
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.h
-Rental.h
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Rental.h
-
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.h
-string
--
-vector
--
-Rental.h
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Rental.h
-
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Movie.h
-string
--
-
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Rental.h
-Movie.h
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Movie.h
-
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/main.cpp
-iostream
--
-Customer.h
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.h
-
