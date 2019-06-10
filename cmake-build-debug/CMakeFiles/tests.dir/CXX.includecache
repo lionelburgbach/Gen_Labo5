@@ -42,6 +42,14 @@ gmock/gmock.h
 string
 -
 
+/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/test/RentalTest.cpp
+gtest/gtest.h
+/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/test/gtest/gtest.h
+gmock/gmock.h
+/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/test/gmock/gmock.h
+../src/Rental.h
+/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Rental.h
+
 googletest-src/googlemock/include/gmock/gmock-actions.h
 errno.h
 -
