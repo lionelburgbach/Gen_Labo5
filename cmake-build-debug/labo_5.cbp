@@ -422,6 +422,20 @@
 			<Option target="tests"/>
 			<Option target="labo_5"/>
 		</Unit>
+		<Unit filename="/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Movie.cpp">
+			<Option target="labo_5"/>
+		</Unit>
+		<Unit filename="/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Movie.h">
+			<Option target="labo_5"/>
+		</Unit>
+		<Unit filename="/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Rental.cpp">
+			<Option target="tests"/>
+			<Option target="labo_5"/>
+		</Unit>
+		<Unit filename="/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Rental.h">
+			<Option target="tests"/>
+			<Option target="labo_5"/>
+		</Unit>
 		<Unit filename="/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/main.cpp">
 			<Option target="labo_5"/>
 		</Unit>

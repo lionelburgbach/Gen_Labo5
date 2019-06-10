@@ -6,6 +6,10 @@ CMakeFiles/tests.dir/src/Customer.cpp.o: ../src/Customer.h
 CMakeFiles/tests.dir/src/Customer.cpp.o: ../src/Movie.h
 CMakeFiles/tests.dir/src/Customer.cpp.o: ../src/Rental.h
 
+CMakeFiles/tests.dir/src/Rental.cpp.o: ../src/Movie.h
+CMakeFiles/tests.dir/src/Rental.cpp.o: ../src/Rental.cpp
+CMakeFiles/tests.dir/src/Rental.cpp.o: ../src/Rental.h
+
 CMakeFiles/tests.dir/test/CustomerTest.cpp.o: ../src/Customer.h
 CMakeFiles/tests.dir/test/CustomerTest.cpp.o: ../src/Movie.h
 CMakeFiles/tests.dir/test/CustomerTest.cpp.o: ../src/Rental.h

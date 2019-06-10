@@ -6,6 +6,13 @@ CMakeFiles/labo_5.dir/src/Customer.cpp.o
  /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.h
  /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Movie.h
  /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Rental.h
+CMakeFiles/labo_5.dir/src/Movie.cpp.o
+ /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Movie.cpp
+ /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Movie.h
+CMakeFiles/labo_5.dir/src/Rental.cpp.o
+ /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Movie.h
+ /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Rental.cpp
+ /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Rental.h
 CMakeFiles/labo_5.dir/src/main.cpp.o
  /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.h
  /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Movie.h
