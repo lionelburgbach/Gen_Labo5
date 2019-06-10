@@ -19,14 +19,3 @@ std::string expected = "Rental Record for Lionel\n\tInterstellar\t9.5\n\tThe Lan
 
 EXPECT_EQ(customer.statement(),expected);
 }
-
-TEST(customerTest, amount)
-{
-    Customer customer("Lionel");
-    Rental each = Rental( Movie("Interstellar"), 10);
-
-    double thisAmount = 0;
-    thisAmount += customer.amount(thisAmount, each);
-
-    EXPECT_EQ(thisAmount, 14);
-}

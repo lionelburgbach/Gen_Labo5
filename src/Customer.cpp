@@ -22,7 +22,8 @@ string Customer::statement()
         Rental each = *iter;
 
         // determine amounts for each line
-        thisAmount = amount(thisAmount, each);
+        //thisAmount = amount(thisAmount, each);
+        thisAmount = each.amount(thisAmount);
 
         // add frequent renter points
         frequentRenterPoints++;
@@ -41,6 +42,7 @@ string Customer::statement()
            << " frequent renter points";
     return result.str();
 }
+
 
 double Customer::amount(double thisAmount, const Rental &each) const {
 
