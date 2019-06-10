@@ -14,11 +14,11 @@ public:
     std::string getName() const;
     std::string statement();
 
+    double amount(double thisAmount, const Rental &each) const;
+
 private:
     std::string _name;
     std::vector< Rental > _rentals;
-
-    double amount(double thisAmount, const Rental &each) const;
 };
 
 inline Customer::Customer() {}
