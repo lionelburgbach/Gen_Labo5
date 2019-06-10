@@ -8,7 +8,6 @@
 
 TEST(rentalTest, amount)
 {
-
     Rental each = Rental( Movie("Interstellar"), 10);
 
     double thisAmount = 0;
