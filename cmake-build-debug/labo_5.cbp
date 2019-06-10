@@ -442,6 +442,9 @@
 		<Unit filename="/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/test/CustomerTest.cpp">
 			<Option target="tests"/>
 		</Unit>
+		<Unit filename="/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/test/RentalTest.cpp">
+			<Option target="tests"/>
+		</Unit>
 		<Unit filename="/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/test/example.cpp">
 			<Option target="tests"/>
 		</Unit>

@@ -750,6 +750,33 @@ test/CustomerTest.cpp.s:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/test/CustomerTest.cpp.s
 .PHONY : test/CustomerTest.cpp.s
 
+test/RentalTest.o: test/RentalTest.cpp.o
+
+.PHONY : test/RentalTest.o
+
+# target to build an object file
+test/RentalTest.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/test/RentalTest.cpp.o
+.PHONY : test/RentalTest.cpp.o
+
+test/RentalTest.i: test/RentalTest.cpp.i
+
+.PHONY : test/RentalTest.i
+
+# target to preprocess a source file
+test/RentalTest.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/test/RentalTest.cpp.i
+.PHONY : test/RentalTest.cpp.i
+
+test/RentalTest.s: test/RentalTest.cpp.s
+
+.PHONY : test/RentalTest.s
+
+# target to generate assembly for a file
+test/RentalTest.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/test/RentalTest.cpp.s
+.PHONY : test/RentalTest.cpp.s
+
 test/example.o: test/example.cpp.o
 
 .PHONY : test/example.o
@@ -839,6 +866,9 @@ help:
 	@echo "... test/CustomerTest.o"
 	@echo "... test/CustomerTest.i"
 	@echo "... test/CustomerTest.s"
+	@echo "... test/RentalTest.o"
+	@echo "... test/RentalTest.i"
+	@echo "... test/RentalTest.s"
 	@echo "... test/example.o"
 	@echo "... test/example.i"
 	@echo "... test/example.s"
