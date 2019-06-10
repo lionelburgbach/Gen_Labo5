@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.cpp
+sstream
+-
+vector
+-
+Customer.h
+/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.h
+
 /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.h
 string
 -
@@ -31,6 +39,12 @@ gmock/gmock.h
 /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/src/Customer.h
 string
 -
+
+/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/test/example.cpp
+gtest/gtest.h
+/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/test/gtest/gtest.h
+gmock/gmock.h
+/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/test/gmock/gmock.h
 
 googletest-src/googlemock/include/gmock/gmock-actions.h
 errno.h
