@@ -639,6 +639,63 @@ src/Customer.cpp.s:
 	$(MAKE) -f CMakeFiles/labo_5.dir/build.make CMakeFiles/labo_5.dir/src/Customer.cpp.s
 .PHONY : src/Customer.cpp.s
 
+src/Movie.o: src/Movie.cpp.o
+
+.PHONY : src/Movie.o
+
+# target to build an object file
+src/Movie.cpp.o:
+	$(MAKE) -f CMakeFiles/labo_5.dir/build.make CMakeFiles/labo_5.dir/src/Movie.cpp.o
+.PHONY : src/Movie.cpp.o
+
+src/Movie.i: src/Movie.cpp.i
+
+.PHONY : src/Movie.i
+
+# target to preprocess a source file
+src/Movie.cpp.i:
+	$(MAKE) -f CMakeFiles/labo_5.dir/build.make CMakeFiles/labo_5.dir/src/Movie.cpp.i
+.PHONY : src/Movie.cpp.i
+
+src/Movie.s: src/Movie.cpp.s
+
+.PHONY : src/Movie.s
+
+# target to generate assembly for a file
+src/Movie.cpp.s:
+	$(MAKE) -f CMakeFiles/labo_5.dir/build.make CMakeFiles/labo_5.dir/src/Movie.cpp.s
+.PHONY : src/Movie.cpp.s
+
+src/Rental.o: src/Rental.cpp.o
+
+.PHONY : src/Rental.o
+
+# target to build an object file
+src/Rental.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/Rental.cpp.o
+	$(MAKE) -f CMakeFiles/labo_5.dir/build.make CMakeFiles/labo_5.dir/src/Rental.cpp.o
+.PHONY : src/Rental.cpp.o
+
+src/Rental.i: src/Rental.cpp.i
+
+.PHONY : src/Rental.i
+
+# target to preprocess a source file
+src/Rental.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/Rental.cpp.i
+	$(MAKE) -f CMakeFiles/labo_5.dir/build.make CMakeFiles/labo_5.dir/src/Rental.cpp.i
+.PHONY : src/Rental.cpp.i
+
+src/Rental.s: src/Rental.cpp.s
+
+.PHONY : src/Rental.s
+
+# target to generate assembly for a file
+src/Rental.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/Rental.cpp.s
+	$(MAKE) -f CMakeFiles/labo_5.dir/build.make CMakeFiles/labo_5.dir/src/Rental.cpp.s
+.PHONY : src/Rental.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -770,6 +827,12 @@ help:
 	@echo "... src/Customer.o"
 	@echo "... src/Customer.i"
 	@echo "... src/Customer.s"
+	@echo "... src/Movie.o"
+	@echo "... src/Movie.i"
+	@echo "... src/Movie.s"
+	@echo "... src/Rental.o"
+	@echo "... src/Rental.i"
+	@echo "... src/Rental.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

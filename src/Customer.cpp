@@ -2,6 +2,7 @@
 #include <sstream>
 #include <vector>
 #include "Customer.h"
+#include "Rental.h"
 
 using std::ostringstream;
 using std::vector;
@@ -42,20 +43,6 @@ string Customer::statement()
 }
 
 double Customer::amount(double thisAmount, const Rental &each) const {
-    switch (each.getMovie().getPriceCode()) {
-        case Movie::REGULAR:
-            thisAmount += 2;
-            if (each.getDaysRented() > 2)
-                thisAmount += (each.getDaysRented() - 2) * 1.5;
-            break;
-        case Movie::NEW_RELEASE:
-            thisAmount += each.getDaysRented() * 3;
-            break;
-        case Movie::CHILDRENS:
-            thisAmount += 1.5;
-            if (each.getDaysRented() > 3)
-                thisAmount += (each.getDaysRented() - 3) * 1.5;
-            break;
-    }
-    return thisAmount;
+
+    return each.amount(thisAmount);
 }

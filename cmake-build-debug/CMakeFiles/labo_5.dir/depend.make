@@ -6,6 +6,13 @@ CMakeFiles/labo_5.dir/src/Customer.cpp.o: ../src/Customer.h
 CMakeFiles/labo_5.dir/src/Customer.cpp.o: ../src/Movie.h
 CMakeFiles/labo_5.dir/src/Customer.cpp.o: ../src/Rental.h
 
+CMakeFiles/labo_5.dir/src/Movie.cpp.o: ../src/Movie.cpp
+CMakeFiles/labo_5.dir/src/Movie.cpp.o: ../src/Movie.h
+
+CMakeFiles/labo_5.dir/src/Rental.cpp.o: ../src/Movie.h
+CMakeFiles/labo_5.dir/src/Rental.cpp.o: ../src/Rental.cpp
+CMakeFiles/labo_5.dir/src/Rental.cpp.o: ../src/Rental.h
+
 CMakeFiles/labo_5.dir/src/main.cpp.o: ../src/Customer.h
 CMakeFiles/labo_5.dir/src/main.cpp.o: ../src/Movie.h
 CMakeFiles/labo_5.dir/src/main.cpp.o: ../src/Rental.h
