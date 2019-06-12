@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc
 gmock/gmock.h
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googlemock/src/gmock/gmock.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googlemock/src/gmock/gmock.h
 src/gmock-cardinalities.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googlemock/src/src/gmock-cardinalities.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googlemock/src/src/gmock-cardinalities.cc
 src/gmock-internal-utils.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googlemock/src/src/gmock-internal-utils.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googlemock/src/src/gmock-internal-utils.cc
 src/gmock-matchers.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googlemock/src/src/gmock-matchers.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googlemock/src/src/gmock-matchers.cc
 src/gmock-spec-builders.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googlemock/src/src/gmock-spec-builders.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googlemock/src/src/gmock-spec-builders.cc
 src/gmock.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googlemock/src/src/gmock.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googlemock/src/src/gmock.cc
 
 googletest-src/googlemock/include/gmock/gmock-actions.h
 errno.h

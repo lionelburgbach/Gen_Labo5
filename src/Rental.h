@@ -9,7 +9,7 @@ public:
 
     int getDaysRented() const;
     const Movie& getMovie() const;
-    double amount(double thisAmount) const;
+    double amount() const;
 
 private:
     Movie _movie;
