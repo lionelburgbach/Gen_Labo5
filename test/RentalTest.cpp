@@ -11,7 +11,7 @@ TEST(rentalTest, amount)
     Rental each = Rental( Movie("Interstellar"), 10);
 
     double thisAmount = 0;
-    thisAmount += each.amount();
+    thisAmount += each.getRentingPrice();
 
     EXPECT_EQ(thisAmount, 14);
 }
