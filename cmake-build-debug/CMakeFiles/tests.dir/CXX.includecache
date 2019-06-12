@@ -6,13 +6,45 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.cpp
+sstream
+-
+vector
+-
+Customer.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.h
+Rental.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.h
+string
+-
+vector
+-
+Rental.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
+
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.h
 string
 -
 
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.cpp
+Rental.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
+
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
 Movie.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.h
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/CustomerTest.cpp
+gtest/gtest.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gtest/gtest.h
+gmock/gmock.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gmock/gmock.h
+../src/Customer.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.h
+string
+-
 
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/RentalTest.cpp
 gtest/gtest.h
