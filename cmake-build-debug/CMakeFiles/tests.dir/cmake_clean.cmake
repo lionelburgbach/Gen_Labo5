@@ -1,11 +1,18 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tests.dir/test/example.cpp.o"
-  "CMakeFiles/tests.dir/src/Customer.cpp.o"
-  "CMakeFiles/tests.dir/test/CustomerTest.cpp.o"
-  "CMakeFiles/tests.dir/src/Rental.cpp.o"
-  "CMakeFiles/tests.dir/test/RentalTest.cpp.o"
+  "CMakeFiles/tests.dir/test/example.cpp.obj"
+  "CMakeFiles/tests.dir/src/Customer.cpp.obj"
+  "CMakeFiles/tests.dir/test/CustomerTest.cpp.obj"
+  "CMakeFiles/tests.dir/src/Rental.cpp.obj"
+  "CMakeFiles/tests.dir/test/RentalTest.cpp.obj"
+  "CMakeFiles/tests.dir/src/MovieState.cpp.obj"
+  "CMakeFiles/tests.dir/src/Movie.cpp.obj"
+  "CMakeFiles/tests.dir/src/RegularMovieState.cpp.obj"
+  "CMakeFiles/tests.dir/src/ChildrenMovieState.cpp.obj"
+  "CMakeFiles/tests.dir/src/NewReleaseMovieState.cpp.obj"
   "tests.pdb"
-  "tests"
+  "tests.exe"
+  "tests.exe.manifest"
+  "libtests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

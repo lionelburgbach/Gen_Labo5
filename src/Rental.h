@@ -9,7 +9,8 @@ public:
 
     int getDaysRented() const;
     const Movie& getMovie() const;
-    double amount(double thisAmount) const;
+    double getRentingPrice() const;
+    int frequentRenterPoints() const;
 
 private:
     Movie _movie;

@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/lionelburgbacher/Documents/GEN_LABO/labo_5
-BuildDirectory: /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug
+SourceDirectory: C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5
+BuildDirectory: C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: LioB
+Site: NIKO
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-c++
+BuildName: Win32-mingw32-make
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,8 +26,8 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" "/Users/lionelburgbacher/Documents/GEN_LABO/labo_5"
-MakeCommand: /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "C:/Program Files/JetBrains/CLion 2019.1.4/bin/cmake/win/bin/cmake.exe" "C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5"
+MakeCommand: C:/Program\ Files/JetBrains/CLion\ 2019.1.4/bin/cmake/win/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -39,12 +39,12 @@ CVSCommand: CVSCOMMAND-NOTFOUND
 CVSUpdateOptions: -d -A -P
 
 # Subversion options
-SVNCommand: /usr/bin/svn
+SVNCommand: SVNCOMMAND-NOTFOUND
 SVNOptions: 
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: /usr/local/bin/git
+GITCommand: C:/Program Files/Git/cmd/git.exe
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -57,13 +57,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/local/bin/git
+UpdateCommand: C:/Program Files/Git/cmd/git.exe
 UpdateOptions: 
 UpdateType: git
 
 # Compiler info
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-CompilerVersion: 10.0.1.10010046
+Compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
+CompilerVersion: 8.1.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -76,7 +76,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: /usr/bin/gcov
+CoverageCommand: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Cluster commands

@@ -1,10 +1,16 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/labo_5.dir/src/main.cpp.o"
-  "CMakeFiles/labo_5.dir/src/Customer.cpp.o"
-  "CMakeFiles/labo_5.dir/src/Rental.cpp.o"
-  "CMakeFiles/labo_5.dir/src/Movie.cpp.o"
+  "CMakeFiles/labo_5.dir/src/main.cpp.obj"
+  "CMakeFiles/labo_5.dir/src/Customer.cpp.obj"
+  "CMakeFiles/labo_5.dir/src/Rental.cpp.obj"
+  "CMakeFiles/labo_5.dir/src/Movie.cpp.obj"
+  "CMakeFiles/labo_5.dir/src/MovieState.cpp.obj"
+  "CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.obj"
+  "CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.obj"
+  "CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.obj"
   "labo_5.pdb"
-  "labo_5"
+  "labo_5.exe"
+  "labo_5.exe.manifest"
+  "liblabo_5.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

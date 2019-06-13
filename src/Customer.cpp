@@ -22,13 +22,10 @@ string Customer::statement()
         Rental each = *iter;
 
         // determine amounts for each line
-        thisAmount = each.amount(thisAmount);
+        thisAmount = each.getRentingPrice();
 
-        // add frequent renter points
-        frequentRenterPoints++;
-        // add bonus for a two day new release rental
-        if ( ( each.getMovie().getPriceCode() == Movie::NEW_RELEASE )
-             && each.getDaysRented() > 1 ) frequentRenterPoints++;
+        // add the frequent renter points earned with this renting to the total
+        frequentRenterPoints += each.frequentRenterPoints();
 
         // show figures for this rental
         result << "\t" << each.getMovie().getTitle() << "\t" << thisAmount << "\n";
