@@ -67,7 +67,7 @@ inline MovieState *Movie::getNewState(const std::string& title, int priceCode) {
 }
 
 inline Movie::~Movie(){
-    //TODO solve the sigtrap that happens when uncommenting the next line
+    //TODO investigate why a sigtrap happens if one uncomment the following line
     //delete state;
 }
 
