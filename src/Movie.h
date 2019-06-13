@@ -2,10 +2,15 @@
 #ifndef MOVIE_H
 #define MOVIE_H
 #include <string>
+#include <stdexcept>
+#include "MovieState.h"
+#include "ChildrenMovieState.h"
+#include "RegularMovieState.h"
+#include "NewReleaseMovieState.h"
 
 class Movie {
 public:
-    static const int CHILDRENS   = 2;
+    static const int CHILDREN   = 2;
     static const int REGULAR     = 0;
     static const int NEW_RELEASE = 1;
 
@@ -17,56 +22,54 @@ public:
     double getRentingPrice(int daysRented) const;
     int frequentRenterPoints(int daysRented) const;
 
+    ~Movie();
+
 private:
-    std::string _title;
+    MovieState* state;
     int _priceCode;
+
+    MovieState* getNewState(const std::string& title, int priceCode);
 };
 
 inline Movie::
 Movie( const std::string& title, int priceCode )
-        : _title( title )
-        , _priceCode( priceCode )
-{}
+{
+    state = getNewState(title, priceCode);
+    _priceCode = priceCode;
+}
 
 inline int Movie::
 getPriceCode() const { return _priceCode; }
 
 inline void Movie::
-setPriceCode( int arg ) { _priceCode = arg; }
+setPriceCode( int arg ) {
+    if(_priceCode != arg){
+        _priceCode = arg;
+        MovieState* tmp = getNewState(state->getTitle(), arg);
+        delete state;
+        state = tmp;
+    }
+}
 
 inline std::string Movie::
-getTitle() const { return _title; }
+getTitle() const { return state->getTitle(); }
 
-inline double Movie::
-getRentingPrice(int daysRented) const {
-    double amount = 0.0;
-    switch(_priceCode){
-        case Movie::REGULAR:
-            amount += 2;
-            if (daysRented > 2)
-                amount += (daysRented - 2) * 1.5;
+inline MovieState *Movie::getNewState(const std::string& title, int priceCode) {
+    switch(priceCode){
+        case CHILDREN : return new ChildrenMovieState(title);
             break;
-        case Movie::NEW_RELEASE:
-            amount += daysRented * 3;
+        case REGULAR : return new RegularMovieState(title);
             break;
-        case Movie::CHILDRENS:
-            amount += 1.5;
-            if (daysRented > 3)
-                amount += (daysRented - 3) * 1.5;
+        case NEW_RELEASE : return new NewReleaseMovieState(title);
             break;
+        default: throw std::invalid_argument("no such movie type");
     }
-    return amount;
 }
 
-inline int Movie::
-frequentRenterPoints(int daysRented) const{
-    //default frequent renter points
-    int frequentRenterPoints = 1;
-    // add bonus for a two day new release rental
-    if ( ( this->getPriceCode() == Movie::NEW_RELEASE )
-         && daysRented > 1 ) frequentRenterPoints++;
-
-    return frequentRenterPoints;
+inline Movie::~Movie(){
+    //TODO solve the sigtrap that happens when uncommenting the next line
+    //delete state;
 }
+
 
 #endif // MOVIE_H

@@ -608,6 +608,36 @@ gtest_main/fast:
 	$(MAKE) -f googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/ChildrenMovieState.obj: src/ChildrenMovieState.cpp.obj
+
+.PHONY : src/ChildrenMovieState.obj
+
+# target to build an object file
+src/ChildrenMovieState.cpp.obj:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.obj
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/ChildrenMovieState.cpp.obj
+.PHONY : src/ChildrenMovieState.cpp.obj
+
+src/ChildrenMovieState.i: src/ChildrenMovieState.cpp.i
+
+.PHONY : src/ChildrenMovieState.i
+
+# target to preprocess a source file
+src/ChildrenMovieState.cpp.i:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.i
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/ChildrenMovieState.cpp.i
+.PHONY : src/ChildrenMovieState.cpp.i
+
+src/ChildrenMovieState.s: src/ChildrenMovieState.cpp.s
+
+.PHONY : src/ChildrenMovieState.s
+
+# target to generate assembly for a file
+src/ChildrenMovieState.cpp.s:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.s
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/ChildrenMovieState.cpp.s
+.PHONY : src/ChildrenMovieState.cpp.s
+
 src/Customer.obj: src/Customer.cpp.obj
 
 .PHONY : src/Customer.obj
@@ -645,6 +675,7 @@ src/Movie.obj: src/Movie.cpp.obj
 # target to build an object file
 src/Movie.cpp.obj:
 	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/Movie.cpp.obj
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Movie.cpp.obj
 .PHONY : src/Movie.cpp.obj
 
 src/Movie.i: src/Movie.cpp.i
@@ -654,6 +685,7 @@ src/Movie.i: src/Movie.cpp.i
 # target to preprocess a source file
 src/Movie.cpp.i:
 	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/Movie.cpp.i
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Movie.cpp.i
 .PHONY : src/Movie.cpp.i
 
 src/Movie.s: src/Movie.cpp.s
@@ -663,7 +695,98 @@ src/Movie.s: src/Movie.cpp.s
 # target to generate assembly for a file
 src/Movie.cpp.s:
 	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/Movie.cpp.s
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/Movie.cpp.s
 .PHONY : src/Movie.cpp.s
+
+src/MovieState.obj: src/MovieState.cpp.obj
+
+.PHONY : src/MovieState.obj
+
+# target to build an object file
+src/MovieState.cpp.obj:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/MovieState.cpp.obj
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/MovieState.cpp.obj
+.PHONY : src/MovieState.cpp.obj
+
+src/MovieState.i: src/MovieState.cpp.i
+
+.PHONY : src/MovieState.i
+
+# target to preprocess a source file
+src/MovieState.cpp.i:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/MovieState.cpp.i
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/MovieState.cpp.i
+.PHONY : src/MovieState.cpp.i
+
+src/MovieState.s: src/MovieState.cpp.s
+
+.PHONY : src/MovieState.s
+
+# target to generate assembly for a file
+src/MovieState.cpp.s:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/MovieState.cpp.s
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/MovieState.cpp.s
+.PHONY : src/MovieState.cpp.s
+
+src/NewReleaseMovieState.obj: src/NewReleaseMovieState.cpp.obj
+
+.PHONY : src/NewReleaseMovieState.obj
+
+# target to build an object file
+src/NewReleaseMovieState.cpp.obj:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.obj
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/NewReleaseMovieState.cpp.obj
+.PHONY : src/NewReleaseMovieState.cpp.obj
+
+src/NewReleaseMovieState.i: src/NewReleaseMovieState.cpp.i
+
+.PHONY : src/NewReleaseMovieState.i
+
+# target to preprocess a source file
+src/NewReleaseMovieState.cpp.i:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.i
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/NewReleaseMovieState.cpp.i
+.PHONY : src/NewReleaseMovieState.cpp.i
+
+src/NewReleaseMovieState.s: src/NewReleaseMovieState.cpp.s
+
+.PHONY : src/NewReleaseMovieState.s
+
+# target to generate assembly for a file
+src/NewReleaseMovieState.cpp.s:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.s
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/NewReleaseMovieState.cpp.s
+.PHONY : src/NewReleaseMovieState.cpp.s
+
+src/RegularMovieState.obj: src/RegularMovieState.cpp.obj
+
+.PHONY : src/RegularMovieState.obj
+
+# target to build an object file
+src/RegularMovieState.cpp.obj:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.obj
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/RegularMovieState.cpp.obj
+.PHONY : src/RegularMovieState.cpp.obj
+
+src/RegularMovieState.i: src/RegularMovieState.cpp.i
+
+.PHONY : src/RegularMovieState.i
+
+# target to preprocess a source file
+src/RegularMovieState.cpp.i:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.i
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/RegularMovieState.cpp.i
+.PHONY : src/RegularMovieState.cpp.i
+
+src/RegularMovieState.s: src/RegularMovieState.cpp.s
+
+.PHONY : src/RegularMovieState.s
+
+# target to generate assembly for a file
+src/RegularMovieState.cpp.s:
+	$(MAKE) -f CMakeFiles\labo_5.dir\build.make CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.s
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/src/RegularMovieState.cpp.s
+.PHONY : src/RegularMovieState.cpp.s
 
 src/Rental.obj: src/Rental.cpp.obj
 
@@ -850,12 +973,24 @@ help:
 	@echo ... gmock
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... src/ChildrenMovieState.obj
+	@echo ... src/ChildrenMovieState.i
+	@echo ... src/ChildrenMovieState.s
 	@echo ... src/Customer.obj
 	@echo ... src/Customer.i
 	@echo ... src/Customer.s
 	@echo ... src/Movie.obj
 	@echo ... src/Movie.i
 	@echo ... src/Movie.s
+	@echo ... src/MovieState.obj
+	@echo ... src/MovieState.i
+	@echo ... src/MovieState.s
+	@echo ... src/NewReleaseMovieState.obj
+	@echo ... src/NewReleaseMovieState.i
+	@echo ... src/NewReleaseMovieState.s
+	@echo ... src/RegularMovieState.obj
+	@echo ... src/RegularMovieState.i
+	@echo ... src/RegularMovieState.s
 	@echo ... src/Rental.obj
 	@echo ... src/Rental.i
 	@echo ... src/Rental.s

@@ -1,38 +1,29 @@
 "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5"
--- The CXX compiler identification is GNU 8.1.0
--- Check for working CXX compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
--- Check for working CXX compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+CMake Warning (dev) at CMakeLists.txt:3 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
 -- Downloading/updating googletest
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-download
 Scanning dependencies of target googletest-download
-[ 11%] Creating directories for 'googletest-download'
-[ 22%] Performing download step (git clone) for 'googletest-download'
-Cloning into 'googletest-src'...
-Checking out files: 100% (277/277), done.
-Your branch is up to date with 'origin/master'.
-Already on 'master'
-[ 33%] No patch step for 'googletest-download'
-[ 44%] Skipping update step for 'googletest-download'
-[ 55%] No configure step for 'googletest-download'
-[ 66%] No build step for 'googletest-download'
-[ 77%] No install step for 'googletest-download'
-[ 88%] No test step for 'googletest-download'
-[100%] Completed 'googletest-download'
+[ 11%] Skipping update step for 'googletest-download'
+[ 22%] No configure step for 'googletest-download'
+[ 33%] No build step for 'googletest-download'
+[ 44%] No install step for 'googletest-download'
+[ 55%] No test step for 'googletest-download'
+[ 66%] Completed 'googletest-download'
 [100%] Built target googletest-download
--- The C compiler identification is GNU 8.1.0
--- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
--- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Found PythonInterp: C:/Users/NS/AppData/Local/Programs/Python/Python37/python.exe (found version "3.7") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug

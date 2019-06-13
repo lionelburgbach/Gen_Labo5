@@ -108,12 +108,68 @@ CMakeFiles/labo_5.dir/src/Movie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labo_5.dir/src/Movie.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\Movie.cpp" -o CMakeFiles\labo_5.dir\src\Movie.cpp.s
 
+CMakeFiles/labo_5.dir/src/MovieState.cpp.obj: CMakeFiles/labo_5.dir/flags.make
+CMakeFiles/labo_5.dir/src/MovieState.cpp.obj: ../src/MovieState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/labo_5.dir/src/MovieState.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\labo_5.dir\src\MovieState.cpp.obj -c "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\MovieState.cpp"
+
+CMakeFiles/labo_5.dir/src/MovieState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labo_5.dir/src/MovieState.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\MovieState.cpp" > CMakeFiles\labo_5.dir\src\MovieState.cpp.i
+
+CMakeFiles/labo_5.dir/src/MovieState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labo_5.dir/src/MovieState.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\MovieState.cpp" -o CMakeFiles\labo_5.dir\src\MovieState.cpp.s
+
+CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.obj: CMakeFiles/labo_5.dir/flags.make
+CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.obj: ../src/RegularMovieState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\labo_5.dir\src\RegularMovieState.cpp.obj -c "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\RegularMovieState.cpp"
+
+CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\RegularMovieState.cpp" > CMakeFiles\labo_5.dir\src\RegularMovieState.cpp.i
+
+CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\RegularMovieState.cpp" -o CMakeFiles\labo_5.dir\src\RegularMovieState.cpp.s
+
+CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.obj: CMakeFiles/labo_5.dir/flags.make
+CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.obj: ../src/ChildrenMovieState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\labo_5.dir\src\ChildrenMovieState.cpp.obj -c "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\ChildrenMovieState.cpp"
+
+CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\ChildrenMovieState.cpp" > CMakeFiles\labo_5.dir\src\ChildrenMovieState.cpp.i
+
+CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\ChildrenMovieState.cpp" -o CMakeFiles\labo_5.dir\src\ChildrenMovieState.cpp.s
+
+CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.obj: CMakeFiles/labo_5.dir/flags.make
+CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.obj: ../src/NewReleaseMovieState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\labo_5.dir\src\NewReleaseMovieState.cpp.obj -c "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\NewReleaseMovieState.cpp"
+
+CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\NewReleaseMovieState.cpp" > CMakeFiles\labo_5.dir\src\NewReleaseMovieState.cpp.i
+
+CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\src\NewReleaseMovieState.cpp" -o CMakeFiles\labo_5.dir\src\NewReleaseMovieState.cpp.s
+
 # Object files for target labo_5
 labo_5_OBJECTS = \
 "CMakeFiles/labo_5.dir/src/main.cpp.obj" \
 "CMakeFiles/labo_5.dir/src/Customer.cpp.obj" \
 "CMakeFiles/labo_5.dir/src/Rental.cpp.obj" \
-"CMakeFiles/labo_5.dir/src/Movie.cpp.obj"
+"CMakeFiles/labo_5.dir/src/Movie.cpp.obj" \
+"CMakeFiles/labo_5.dir/src/MovieState.cpp.obj" \
+"CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.obj" \
+"CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.obj" \
+"CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.obj"
 
 # External object files for target labo_5
 labo_5_EXTERNAL_OBJECTS =
@@ -122,11 +178,15 @@ labo_5.exe: CMakeFiles/labo_5.dir/src/main.cpp.obj
 labo_5.exe: CMakeFiles/labo_5.dir/src/Customer.cpp.obj
 labo_5.exe: CMakeFiles/labo_5.dir/src/Rental.cpp.obj
 labo_5.exe: CMakeFiles/labo_5.dir/src/Movie.cpp.obj
+labo_5.exe: CMakeFiles/labo_5.dir/src/MovieState.cpp.obj
+labo_5.exe: CMakeFiles/labo_5.dir/src/RegularMovieState.cpp.obj
+labo_5.exe: CMakeFiles/labo_5.dir/src/ChildrenMovieState.cpp.obj
+labo_5.exe: CMakeFiles/labo_5.dir/src/NewReleaseMovieState.cpp.obj
 labo_5.exe: CMakeFiles/labo_5.dir/build.make
 labo_5.exe: CMakeFiles/labo_5.dir/linklibs.rsp
 labo_5.exe: CMakeFiles/labo_5.dir/objects1.rsp
 labo_5.exe: CMakeFiles/labo_5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable labo_5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable labo_5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\labo_5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

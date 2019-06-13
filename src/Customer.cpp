@@ -22,8 +22,9 @@ string Customer::statement()
         Rental each = *iter;
 
         // determine amounts for each line
-        thisAmount += each.getRentingPrice();
+        thisAmount = each.getRentingPrice();
 
+        // add the frequent renter points earned with this renting to the total
         frequentRenterPoints += each.frequentRenterPoints();
 
         // show figures for this rental
