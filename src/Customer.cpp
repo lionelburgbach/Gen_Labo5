@@ -18,11 +18,10 @@ string Customer::statement()
     ostringstream result;
     result << "Rental Record for " << getName() << "\n";
     for ( ; iter != iter_end; ++iter ) {
-        double thisAmount = 0;
         Rental each = *iter;
 
-        // determine amounts for each line
-        thisAmount = each.amount(thisAmount);
+        // determine amounts for current Rental
+        double thisAmount = each.amount();
 
         // add frequent renter points
         frequentRenterPoints++;
