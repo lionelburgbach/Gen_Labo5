@@ -14,6 +14,7 @@ public:
     int getPriceCode() const;
     void setPriceCode( int arg );
     std::string getTitle() const;
+    double getRentingPrice(int daysRented) const;
 
 private:
     std::string _title;
@@ -34,5 +35,26 @@ setPriceCode( int arg ) { _priceCode = arg; }
 
 inline std::string Movie::
 getTitle() const { return _title; }
+
+inline double Movie::
+getRentingPrice(int daysRented) const {
+    double amount = 0.0;
+    switch(_priceCode){
+        case Movie::REGULAR:
+            amount += 2;
+            if (daysRented > 2)
+                amount += (daysRented - 2) * 1.5;
+            break;
+        case Movie::NEW_RELEASE:
+            amount += daysRented * 3;
+            break;
+        case Movie::CHILDRENS:
+            amount += 1.5;
+            if (daysRented > 3)
+                amount += (daysRented - 3) * 1.5;
+            break;
+    }
+    return amount;
+}
 
 #endif // MOVIE_H
