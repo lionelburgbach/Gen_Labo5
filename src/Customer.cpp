@@ -22,7 +22,7 @@ string Customer::statement()
         Rental each = *iter;
 
         // determine amounts for each line
-        thisAmount = each.amount(thisAmount);
+        thisAmount += each.amount();
 
         // add frequent renter points
         frequentRenterPoints++;
