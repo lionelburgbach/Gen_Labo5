@@ -35,8 +35,8 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
 endif()
 
 # Trivial example using gtest and gmock
-add_executable(labo_5 src/main.cpp src/Customer.cpp src/Rental.cpp src/Movie.cpp)
-add_executable(tests test/example.cpp src/Customer.cpp test/CustomerTest.cpp src/Rental.cpp test/RentalTest.cpp test/MovieTest.cpp)
+add_executable(labo_5 src/main.cpp src/Customer.cpp src/Rental.cpp src/Movie.cpp src/MovieState.cpp src/MovieState.h src/RegularMovieState.cpp src/RegularMovieState.h src/ChildrenMovieState.cpp src/ChildrenMovieState.h src/NewReleaseMovieState.cpp src/NewReleaseMovieState.h)
+add_executable(tests test/example.cpp src/Customer.cpp test/CustomerTest.cpp src/Rental.cpp test/RentalTest.cpp test/MovieTest.cpp src/MovieState.cpp src/Movie.cpp src/MovieState.h src/RegularMovieState.cpp src/RegularMovieState.h src/ChildrenMovieState.cpp src/ChildrenMovieState.h src/NewReleaseMovieState.cpp src/NewReleaseMovieState.h)
 
 target_link_libraries(tests gtest gmock_main)
 add_test(NAME example_test COMMAND tests)

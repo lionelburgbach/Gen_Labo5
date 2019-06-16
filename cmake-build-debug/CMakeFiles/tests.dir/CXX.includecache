@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/ChildrenMovieState.cpp
+ChildrenMovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/ChildrenMovieState.h
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/ChildrenMovieState.h
+MovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
+
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.cpp
 sstream
 -
@@ -24,9 +32,47 @@ vector
 Rental.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
 
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.cpp
+Movie.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.h
+
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.h
 string
 -
+stdexcept
+-
+MovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
+ChildrenMovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/ChildrenMovieState.h
+RegularMovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.h
+NewReleaseMovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.h
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.cpp
+MovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
+string
+-
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.cpp
+NewReleaseMovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.h
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.h
+MovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.cpp
+RegularMovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.h
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.h
+MovieState.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
 
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.cpp
 Rental.h
@@ -61,6 +107,12 @@ gmock/gmock.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gmock/gmock.h
 ../src/Rental.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
+
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/example.cpp
+gtest/gtest.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gtest/gtest.h
+gmock/gmock.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gmock/gmock.h
 
 googletest-src/googlemock/include/gmock/gmock-actions.h
 errno.h
