@@ -3,7 +3,7 @@
 //
 #include "Rental.h"
 
-double Rental::amount() const {
+double Rental::getRentingPrice() const {
     return this->getMovie().getRentingPrice(this->getDaysRented());
 }
 

@@ -21,7 +21,7 @@ string Customer::statement()
         Rental each = *iter;
 
         // determine amounts for current Rental
-        double thisAmount = each.amount();
+        double thisAmount = each.getRentingPrice();
 
         // add frequent renter points
         frequentRenterPoints += each.frequentRenterPoints();
