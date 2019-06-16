@@ -15,6 +15,7 @@ public:
     void setPriceCode( int arg );
     std::string getTitle() const;
     double getRentingPrice(int daysRented) const;
+    int frequentRenterPoints(int daysRented) const;
 
 private:
     std::string _title;
@@ -55,6 +56,18 @@ getRentingPrice(int daysRented) const {
             break;
     }
     return amount;
+}
+
+
+inline int Movie::
+frequentRenterPoints(int daysRented) const{
+    //default frequent renter points
+    int frequentRenterPoints = 1;
+    // add bonus for a two day new release rental
+    if ( ( this->getPriceCode() == Movie::NEW_RELEASE )
+         && daysRented > 1 ) frequentRenterPoints++;
+
+    return frequentRenterPoints;
 }
 
 #endif // MOVIE_H
