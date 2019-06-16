@@ -414,6 +414,14 @@
 		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/ChildrenMovieState.cpp">
+			<Option target="labo_5"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/ChildrenMovieState.h">
+			<Option target="labo_5"/>
+			<Option target="tests"/>
+		</Unit>
 		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.cpp">
 			<Option target="labo_5"/>
 			<Option target="tests"/>
@@ -424,9 +432,35 @@
 		</Unit>
 		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.cpp">
 			<Option target="labo_5"/>
+			<Option target="tests"/>
 		</Unit>
 		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.h">
 			<Option target="labo_5"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.cpp">
+			<Option target="labo_5"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h">
+			<Option target="labo_5"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.cpp">
+			<Option target="labo_5"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.h">
+			<Option target="labo_5"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.cpp">
+			<Option target="labo_5"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.h">
+			<Option target="labo_5"/>
+			<Option target="tests"/>
 		</Unit>
 		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.cpp">
 			<Option target="labo_5"/>

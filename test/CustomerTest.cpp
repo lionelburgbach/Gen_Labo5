@@ -13,7 +13,7 @@ TEST(customerTest, statement)
 
 Customer customer("Lionel");
 customer.addRental( Rental( Movie("Interstellar"), 7));
-customer.addRental( Rental( Movie("The Land Befor Time", Movie::CHILDRENS), 3));
+customer.addRental( Rental( Movie("The Land Befor Time", Movie::CHILDREN), 3));
 
 std::string expected = "Rental Record for Lionel\n\tInterstellar\t9.5\n\tThe Land Befor Time\t1.5\nAmount owed is 11\nYou earned 2 frequent renter points";
 
