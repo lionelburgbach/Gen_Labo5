@@ -123,6 +123,8 @@ CMakeFiles/tests.dir/test/RentalTest.cpp.obj: ../src/NewReleaseMovieState.h
 CMakeFiles/tests.dir/test/RentalTest.cpp.obj: ../src/RegularMovieState.h
 CMakeFiles/tests.dir/test/RentalTest.cpp.obj: ../src/Rental.h
 CMakeFiles/tests.dir/test/RentalTest.cpp.obj: ../test/RentalTest.cpp
+CMakeFiles/tests.dir/test/RentalTest.cpp.obj: ../test/mock_movie.h
+CMakeFiles/tests.dir/test/RentalTest.cpp.obj: ../test/mock_rental.h
 CMakeFiles/tests.dir/test/RentalTest.cpp.obj: googletest-src/googlemock/include/gmock/gmock-actions.h
 CMakeFiles/tests.dir/test/RentalTest.cpp.obj: googletest-src/googlemock/include/gmock/gmock-cardinalities.h
 CMakeFiles/tests.dir/test/RentalTest.cpp.obj: googletest-src/googlemock/include/gmock/gmock-function-mocker.h

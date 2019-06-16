@@ -5,8 +5,11 @@
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
 #include "../src/Rental.h"
+#include "mock_rental.h"
+#include "mock_movie.h"
+using ::testing::AtLeast;
 
-TEST(rentalTest, amount)
+TEST(rentalTest, getRentingPoints)
 {
     Rental each = Rental( Movie( new RegularMovieState("Interstellar") ), 10);
 
@@ -29,5 +32,10 @@ TEST(rentalTest2, getRenterPoints)
     EXPECT_EQ(r2.frequentRenterPoints(), 1);
     EXPECT_EQ(r3.frequentRenterPoints(), 1);
     EXPECT_EQ(r4.frequentRenterPoints(), 2);
+}
+
+TEST(rentalDelegatePriceCalcultaionToMovie, getRentingPoints){
+    //TODO implement the following
+    //MockMovie movie(new ChildrenMovieState("Pingu"));
 }
 
