@@ -485,6 +485,12 @@
 		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/example.cpp">
 			<Option target="tests"/>
 		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/mock_movie.h">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/mock_rental.h">
+			<Option target="tests"/>
+		</Unit>
 		<Unit filename="C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
