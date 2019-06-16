@@ -27,4 +27,5 @@ inline MovieState::MovieState(const std::string &title) : title(title) {}
 inline MovieState::~MovieState() {}
 
 
+
 #endif //LABO_5_MOVIESTATE_H

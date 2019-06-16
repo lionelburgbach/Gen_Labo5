@@ -5,7 +5,7 @@
 
 TEST(MovieTest, getRentingPrice)
 {
-    Movie movie("Interstellar");
+    Movie movie( new RegularMovieState("Interstellar") );
     //EXPECT_LT(movie.getRentingPrice(7), 9.51);
     //EXPECT_LT(9.49, movie.getRentingPrice(7));
     EXPECT_EQ(movie.getRentingPrice(7), 9.5);
@@ -13,10 +13,10 @@ TEST(MovieTest, getRentingPrice)
 
 TEST(MovieTest2, getRenterPoints)
 {
-    Movie m1("Interstellar");
-    Movie m2("Interstellar2");
-    Movie m3("Godzilla 57", Movie::NEW_RELEASE);
-    Movie m4("Godzilla 57", Movie::NEW_RELEASE);
+    Movie m1( new RegularMovieState("Interstellar") );
+    Movie m2( new RegularMovieState("Interstellar2") );
+    Movie m3( new NewReleaseMovieState("Godzilla 57") );
+    Movie m4( new NewReleaseMovieState("Godzilla 57") );
 
     EXPECT_EQ(m1.frequentRenterPoints(1), 1);
     EXPECT_EQ(m2.frequentRenterPoints(10), 1);
