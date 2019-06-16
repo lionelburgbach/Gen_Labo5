@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/gtest-all.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/gtest-all.cc
 gtest/gtest.h
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/gtest/gtest.h
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/gtest/gtest.h
 src/gtest.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/src/gtest.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/src/gtest.cc
 src/gtest-death-test.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/src/gtest-death-test.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/src/gtest-filepath.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/src/gtest-filepath.cc
 src/gtest-matchers.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/src/gtest-matchers.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/src/gtest-matchers.cc
 src/gtest-port.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/src/gtest-port.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/src/gtest-port.cc
 src/gtest-printers.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/src/gtest-printers.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/src/gtest-test-part.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/src/gtest-typed-test.cc
+C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/src/gtest-typed-test.cc
 
 googletest-src/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

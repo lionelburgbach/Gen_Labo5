@@ -36,7 +36,7 @@ endif()
 
 # Trivial example using gtest and gmock
 add_executable(labo_5 src/main.cpp src/Customer.cpp src/Rental.cpp src/Movie.cpp)
-add_executable(tests test/example.cpp src/Customer.cpp test/CustomerTest.cpp src/Rental.cpp test/RentalTest.cpp)
+add_executable(tests test/example.cpp src/Customer.cpp test/CustomerTest.cpp src/Rental.cpp test/RentalTest.cpp test/MovieTest.cpp)
 
 target_link_libraries(tests gtest gmock_main)
 add_test(NAME example_test COMMAND tests)
