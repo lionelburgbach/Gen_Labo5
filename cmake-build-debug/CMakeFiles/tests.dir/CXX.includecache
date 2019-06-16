@@ -6,23 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/ChildrenMovieState.cpp
-ChildrenMovieState.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/ChildrenMovieState.h
-
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/ChildrenMovieState.h
 MovieState.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
-
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.cpp
-sstream
--
-vector
--
-Customer.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.h
-Rental.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
 
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.h
 string
@@ -31,10 +17,6 @@ vector
 -
 Rental.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
-
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.cpp
-Movie.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.h
 
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.h
 string
@@ -50,47 +32,21 @@ C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.h
 NewReleaseMovieState.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.h
 
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.cpp
-MovieState.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
-
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
 string
 -
 
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.cpp
-NewReleaseMovieState.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.h
-
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/NewReleaseMovieState.h
 MovieState.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
 
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.cpp
-RegularMovieState.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.h
-
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/RegularMovieState.h
 MovieState.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/MovieState.h
-
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.cpp
-Rental.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
 
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
 Movie.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Movie.h
-
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/CustomerTest.cpp
-gtest/gtest.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gtest/gtest.h
-gmock/gmock.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gmock/gmock.h
-../src/Customer.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.h
-string
--
 
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/MovieTest.cpp
 gtest/gtest.h
@@ -99,234 +55,6 @@ C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gtest/gtest.h
 C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Customer.h
 string
 -
-
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/RentalTest.cpp
-gtest/gtest.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gtest/gtest.h
-gmock/gmock.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gmock/gmock.h
-../src/Rental.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/src/Rental.h
-
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/example.cpp
-gtest/gtest.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gtest/gtest.h
-gmock/gmock.h
-C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/test/gmock/gmock.h
-
-googletest-src/googlemock/include/gmock/gmock-actions.h
-errno.h
--
-algorithm
--
-functional
--
-memory
--
-string
--
-type_traits
--
-utility
--
-gmock/internal/gmock-internal-utils.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
-gmock/internal/gmock-port.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-port.h
-
-googletest-src/googlemock/include/gmock/gmock-cardinalities.h
-limits.h
--
-memory
--
-ostream
--
-gmock/internal/gmock-port.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-port.h
-gtest/gtest.h
-googletest-src/googlemock/include/gmock/gtest/gtest.h
-
-googletest-src/googlemock/include/gmock/gmock-function-mocker.h
-gmock/gmock-generated-function-mockers.h
-googletest-src/googlemock/include/gmock/gmock/gmock-generated-function-mockers.h
-gmock/internal/gmock-pp.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-pp.h
-
-googletest-src/googlemock/include/gmock/gmock-generated-actions.h
-memory
--
-utility
--
-gmock/gmock-actions.h
-googletest-src/googlemock/include/gmock/gmock/gmock-actions.h
-gmock/internal/gmock-port.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-port.h
-gmock/internal/custom/gmock-generated-actions.h
-googletest-src/googlemock/include/gmock/gmock/internal/custom/gmock-generated-actions.h
-
-googletest-src/googlemock/include/gmock/gmock-generated-function-mockers.h
-functional
--
-utility
--
-gmock/gmock-spec-builders.h
-googletest-src/googlemock/include/gmock/gmock/gmock-spec-builders.h
-gmock/internal/gmock-internal-utils.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
-
-googletest-src/googlemock/include/gmock/gmock-generated-matchers.h
-iterator
--
-sstream
--
-string
--
-utility
--
-vector
--
-gmock/gmock-matchers.h
-googletest-src/googlemock/include/gmock/gmock/gmock-matchers.h
-
-googletest-src/googlemock/include/gmock/gmock-matchers.h
-math.h
--
-algorithm
--
-initializer_list
--
-iterator
--
-limits
--
-memory
--
-ostream
--
-sstream
--
-string
--
-type_traits
--
-utility
--
-vector
--
-gmock/internal/gmock-internal-utils.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
-gmock/internal/gmock-port.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-port.h
-gtest/gtest.h
-googletest-src/googlemock/include/gmock/gtest/gtest.h
-gmock/internal/custom/gmock-matchers.h
-googletest-src/googlemock/include/gmock/gmock/internal/custom/gmock-matchers.h
-
-googletest-src/googlemock/include/gmock/gmock-more-actions.h
-algorithm
--
-type_traits
--
-gmock/gmock-generated-actions.h
-googletest-src/googlemock/include/gmock/gmock/gmock-generated-actions.h
-
-googletest-src/googlemock/include/gmock/gmock-more-matchers.h
-gmock/gmock-generated-matchers.h
-googletest-src/googlemock/include/gmock/gmock/gmock-generated-matchers.h
-
-googletest-src/googlemock/include/gmock/gmock-nice-strict.h
-gmock/gmock-spec-builders.h
-googletest-src/googlemock/include/gmock/gmock/gmock-spec-builders.h
-gmock/internal/gmock-port.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-port.h
-
-googletest-src/googlemock/include/gmock/gmock-spec-builders.h
-map
--
-memory
--
-set
--
-sstream
--
-string
--
-utility
--
-vector
--
-gmock/gmock-actions.h
-googletest-src/googlemock/include/gmock/gmock/gmock-actions.h
-gmock/gmock-cardinalities.h
-googletest-src/googlemock/include/gmock/gmock/gmock-cardinalities.h
-gmock/gmock-matchers.h
-googletest-src/googlemock/include/gmock/gmock/gmock-matchers.h
-gmock/internal/gmock-internal-utils.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
-gmock/internal/gmock-port.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-port.h
-gtest/gtest.h
-googletest-src/googlemock/include/gmock/gtest/gtest.h
-stdexcept
--
-
-googletest-src/googlemock/include/gmock/gmock.h
-gmock/gmock-actions.h
-googletest-src/googlemock/include/gmock/gmock/gmock-actions.h
-gmock/gmock-cardinalities.h
-googletest-src/googlemock/include/gmock/gmock/gmock-cardinalities.h
-gmock/gmock-function-mocker.h
-googletest-src/googlemock/include/gmock/gmock/gmock-function-mocker.h
-gmock/gmock-generated-actions.h
-googletest-src/googlemock/include/gmock/gmock/gmock-generated-actions.h
-gmock/gmock-generated-function-mockers.h
-googletest-src/googlemock/include/gmock/gmock/gmock-generated-function-mockers.h
-gmock/gmock-generated-matchers.h
-googletest-src/googlemock/include/gmock/gmock/gmock-generated-matchers.h
-gmock/gmock-matchers.h
-googletest-src/googlemock/include/gmock/gmock/gmock-matchers.h
-gmock/gmock-more-actions.h
-googletest-src/googlemock/include/gmock/gmock/gmock-more-actions.h
-gmock/gmock-more-matchers.h
-googletest-src/googlemock/include/gmock/gmock/gmock-more-matchers.h
-gmock/gmock-nice-strict.h
-googletest-src/googlemock/include/gmock/gmock/gmock-nice-strict.h
-gmock/internal/gmock-internal-utils.h
-googletest-src/googlemock/include/gmock/gmock/internal/gmock-internal-utils.h
-
-googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h
-
-googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h
-
-googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h
-
-googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h
-stdio.h
--
-ostream
--
-string
--
-type_traits
--
-gmock/internal/gmock-port.h
-googletest-src/googlemock/include/gmock/internal/gmock/internal/gmock-port.h
-gtest/gtest.h
-googletest-src/googlemock/include/gmock/internal/gtest/gtest.h
-
-googletest-src/googlemock/include/gmock/internal/gmock-port.h
-assert.h
--
-stdlib.h
--
-iostream
--
-gtest/internal/gtest-port.h
-googletest-src/googlemock/include/gmock/internal/gtest/internal/gtest-port.h
-gmock/internal/custom/gmock-port.h
-googletest-src/googlemock/include/gmock/internal/gmock/internal/custom/gmock-port.h
-
-googletest-src/googlemock/include/gmock/internal/gmock-pp.h
 
 googletest-src/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

@@ -10,15 +10,14 @@
 
 class Movie {
 public:
-    static const int CHILDREN   = 2;
-    static const int REGULAR     = 0;
-    static const int NEW_RELEASE = 1;
 
-    Movie( const std::string& title, int priceCode = REGULAR );
-    Movie( const Movie& movie);
+    Movie( MovieState* ms );
+
+    //TODO implement this copy contructor
+    //Movie( const Movie& movie);
 
     int getPriceCode() const;
-    void setPriceCode( int arg );
+    void setPriceCode( MovieState* ms );
     std::string getTitle() const;
     double getRentingPrice(int daysRented) const;
     int frequentRenterPoints(int daysRented) const;
@@ -27,56 +26,39 @@ public:
 
 private:
     MovieState* state;
-    int _priceCode;
 
-    MovieState* getNewState(const std::string& title, int priceCode);
 };
 
 inline Movie::
-Movie( const std::string& title, int priceCode )
+Movie( MovieState* ms )
 {
-    state = getNewState(title, priceCode);
-    _priceCode = priceCode;
+    state = ms;
 }
 
-inline int Movie::
-getPriceCode() const { return _priceCode; }
-
 inline void Movie::
-setPriceCode( int arg ) {
-    if(_priceCode != arg){
-        _priceCode = arg;
-        MovieState* tmp = getNewState(state->getTitle(), arg);
+setPriceCode( MovieState* ms ) {
         delete state;
-        state = tmp;
-    }
+        state = ms;
 }
 
 inline std::string Movie::
 getTitle() const { return state->getTitle(); }
 
-inline MovieState *Movie::getNewState(const std::string& title, int priceCode) {
-    switch(priceCode){
-        case CHILDREN : return new ChildrenMovieState(title);
-            break;
-        case REGULAR : return new RegularMovieState(title);
-            break;
-        case NEW_RELEASE : return new NewReleaseMovieState(title);
-            break;
-        default: throw std::invalid_argument("no such movie type");
-    }
-}
 
 inline Movie::~Movie(){
-    //TODO solve the sigtrap that happens when uncommenting the next line
-    delete state;
+    /*
+     * TODO uncomment the code but dont forget to implement a copy constructor before uncommenting
+     * otherwise a sigtrap may happen:
+     * (if one use the implicit copy constructor it would lead to multiple delete on state)
+     */
+    //delete state;
 }
 
-inline Movie::
+/*inline Movie::
 Movie(const Movie &movie) {
-    this->_priceCode = movie._priceCode;
-    this->state = getNewState(movie.state->getTitle(), movie._priceCode);
-}
+    //TODO implement this copy contuctor
+    //this->state = new MovieState(movie.state);
+}*/
 
 
 #endif // MOVIE_H
