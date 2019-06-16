@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-src/googletest/src/gtest-all.cc" "/Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+  "C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-src/googletest/src/gtest-all.cc" "C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

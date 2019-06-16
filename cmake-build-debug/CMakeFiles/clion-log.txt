@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lionelburgbacher/Documents/GEN_LABO/labo_5
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\NS\Documents\IL sem4\GEN\labo5_lionel\Gen_Labo5"
 CMake Warning (dev) at CMakeLists.txt:3 (project):
   Policy CMP0048 is not set: project() command manages VERSION variables.
   Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
@@ -15,7 +15,7 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Downloading/updating googletest
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug/googletest-download
+-- Build files have been written to: C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug/googletest-download
 Scanning dependencies of target googletest-download
 [ 11%] Skipping update step for 'googletest-download'
 [ 22%] No configure step for 'googletest-download'
@@ -26,4 +26,4 @@ Scanning dependencies of target googletest-download
 [100%] Built target googletest-download
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/lionelburgbacher/Documents/GEN_LABO/labo_5/cmake-build-debug
+-- Build files have been written to: C:/Users/NS/Documents/IL sem4/GEN/labo5_lionel/Gen_Labo5/cmake-build-debug
